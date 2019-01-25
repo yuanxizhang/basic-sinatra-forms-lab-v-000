@@ -14,6 +14,6 @@ class App < Sinatra::Base
 		@smallforward = params[:sf]
 		@center = params[:c]
 
-		erb :team.erb
+		erb :team
 	end
 end
